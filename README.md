@@ -43,11 +43,11 @@ Phishing remains one of the most prevalent cybersecurity threats. Cyber Safe aim
 
 Cyber-Safe/
 │
-├── manifest.json # Extension metadata and permissions
-├── background.js # Core logic and API calls
-├── popup.html # Popup interface layout
-├── popup.js # UI logic and alert handling
-├── popup.css # Styling for the popup
+├── manifest.json          # Extension metadata and permissions
+├── background.js          # Handles URL scanning and API communication
+├── popup.html             # Layout for the browser extension's popup
+├── popup.js               # Logic for handling certificate and URL analysis
+├── popup.css              # Styling for the popup interface
 
 ## 🚀 How It Works
 
