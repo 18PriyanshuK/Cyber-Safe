@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phishing Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <p class="url-label">Active Tab URL:</p>
+    <p class="active-tab-url" id="activeTabUrl">Loading...</p>
+    <button id="checkButton">Checked</button>
+    <div id="certificateInfo" style="display: none;">
+      <h2>SSL/TLS Certificate Information:</h2>
+      <p id="certificateDetails">Certificate details will appear here.</p>
+    </div>
+    <div id="preventionSteps" style="display: none;">
+      <h2>Prevention Steps:</h2>
+      <ul id="stepsList">
+        <li class="step"><img src="shield.png" class="icon"> Avoid clicking on suspicious links.</li>
+        <li class="step"><img src="url.png" class="icon"> Check the URL before entering sensitive information.</li>
+        <li class="step"><img src="lock.png" class="icon"> Use two-factor authentication.</li>
+        <li class="step"><img src="antivirus.png" class="icon"> Install security software.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="alert" id="alert"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
