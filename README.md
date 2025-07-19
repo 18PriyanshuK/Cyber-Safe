@@ -41,12 +41,17 @@ Phishing remains one of the most prevalent cybersecurity threats. Cyber Safe aim
 
 ## 📦 Project Structure
 
-Cyber-Safe/
-├── manifest.json         # Extension metadata and configuration
-├── background.js         # Handles background tasks and API logic
-├── popup.html            # Layout of the browser extension popup
-├── popup.js              # Manages popup interactions and alerts
-├── popup.css             # Styles the popup interface
+Cyber-Safe/  
+├── manifest.json  
+│   └── Extension metadata and configuration  
+├── background.js  
+│   └── Handles background tasks and API logic  
+├── popup.html  
+│   └── Layout of the browser extension popup  
+├── popup.js  
+│   └── Manages popup interactions and alerts  
+├── popup.css  
+│   └── Styles the popup interface
 
 ## 🚀 How It Works
 
