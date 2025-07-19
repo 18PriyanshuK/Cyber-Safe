@@ -52,6 +52,11 @@ Cyber-Safe/
 │   └── Manages popup interactions and alerts  
 ├── popup.css  
 │   └── Styles the popup interface
+└── icons/  
+    ├── antivirus.png  
+    ├── lock.png
+    ├── shield.png  
+    └── url.png  
 
 ## 🚀 How It Works
 
