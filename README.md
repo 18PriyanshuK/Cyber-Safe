@@ -108,6 +108,6 @@ Cyber-Safe/
 
 ## 📃 License
 
-This project is for educational purposes under the guidance of GLS University. All rights reserved by the authors.
+This project currently does not use any license. Feel free to modify for personal or educational use. For commercial/redistribution, please seek consent.
 
 ---
