@@ -1,92 +1,85 @@
-# 🛡️ Cyber Safe – Phishing Detection and Web Safety Browser Extension
+# 🛡️ Cyber-Safe - Phishing Detection and Web Safety Browser Extension
 
-Cyber Safe is a lightweight, cross-browser extension designed to protect users from phishing attacks in real time. By using the Google Safe Browsing API and SSL/TLS certificate validation, the extension identifies malicious or suspicious websites and immediately notifies users with a clear, easy-to-understand pop-up alert.
-
----
-
-## 📌 Project Overview
-
-Phishing remains one of the most prevalent cybersecurity threats. Cyber Safe aims to reduce user risk by:
-
-- Scanning the active tab's URL.
-- Verifying SSL/TLS certificates.
-- Cross-checking against Google Safe Browsing API.
-- Instantly notifying users about suspicious websites.
-- Promoting awareness through safe browsing tips.
+**Cyber-Safe** is a browser extension that helps detect and warn users about potentially malicious or phishing websites. By checking URLs and analysing basic threat indicators, the extension aims to improve user safety and reduce the risk of interacting with harmful web pages.
 
 ---
 
-## 🎯 Features
+## 🚀 Features
 
-✅ Real-time URL scanning  
-✅ SSL/TLS certificate validation  
-✅ Google Safe Browsing API integration  
-✅ Instant phishing alerts via pop-up  
-✅ Cross-browser compatibility (Chrome, Firefox, Edge, etc.)  
-✅ Lightweight and user-friendly design  
-✅ No personal data collected  
+- Scans the current website URL  
+- Detects potentially unsafe or phishing links  
+- Displays alerts and warnings  
+- Simple and intuitive pop-up interface  
+- Lightweight and easy to install
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
-- **APIs**: 
-  - [Google Safe Browsing API](https://developers.google.com/safe-browsing)
-  - [CertSpotter API](https://sslmate.com/certspotter/)
-- **Development Tools**: Visual Studio Code, Chrome Developer Tools, Postman
-- **Browser Support**: Chrome, Firefox, Edge, Brave, Opera
+- **Languages:** JavaScript, HTML, CSS  
+- **Platform:** Chrome (or Chromium-based browsers) extension  
+- **APIs:** Google Safe Browsing / URL checks (if configured)
 
 ---
 
-## 📦 Project Structure
+## 📁 Project Structure
 
-Cyber-Safe/  
-├── manifest.json  
-│   └── Extension metadata and configuration  
-├── background.js  
-│   └── Handles background tasks and API logic  
-├── popup.html  
-│   └── Layout of the browser extension popup  
-├── popup.js  
-│   └── Manages popup interactions and alerts  
-├── popup.css  
-│   └── Styles the popup interface  
-└── icons/  
-    ├── antivirus.png  
-    ├── lock.png  
-    ├── shield.png  
-    └── url.png  
-
-
-## 🚀 How It Works
-
-1. **URL Fetching**: Captures the current URL of the active tab.
-2. **Verification**:
-   - Checks the URL against Google's Safe Browsing database.
-   - Verifies the site’s SSL/TLS certificate.
-3. **Alert Mechanism**:
-   - If a site is flagged as malicious or has an invalid certificate, a warning pop-up is shown.
-   - Safe websites get a green status message for user reassurance.
-
-## 🧪 Security Measures
-
-- Google Safe Browsing URL validation
-- CertSpotter SSL/TLS certificate verification
-- Whitelisting trusted URLs to reduce false positives
-- Pop-up warnings for unsafe websites
-- Privacy-focused: **No data storage or tracking**
-
-## 📈 Future Enhancements
-
-- 🤖 **Machine Learning**: Advanced detection using ML-based phishing classifiers
-- 📱 **Mobile Browser Support**: Extend compatibility to mobile platforms
-- 🧑‍💻 **User Reporting**: Let users report suspicious websites
-- 📊 **Admin Dashboard**: Track flagged URLs and monitor phishing trends
+```text
+Cyber-Safe/
+├── manifest.json         # Extension manifest
+├── popup.html            # Popup UI
+├── popup.js              # Main extension logic
+├── styles.css            # UI styles
+├── README.md             # This documentation
+└── icons/                # Action icons for extension
+```
 
 ---
 
-## 👩‍💻 Contributors
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/18PriyanshuK/Cyber-Safe.git
+```
+
+2. Open Chrome (or any Chromium browser).
+
+3. Go to `chrome://extensions`.
+
+4. Enable **Developer mode** (top right).
+
+5. Click **Load unpacked** and select the project folder.
+
+6. The extension should now be installed.
+
+---
+
+## ▶️ Usage
+
+1. Click the Cyber-Safe extension icon in the toolbar.
+
+2. Visit any website you want to check.
+
+3. The extension will analyse the URL and show warnings if the site appears unsafe.
+
+---
+
+## 🧠 How It Works
+
+Cyber-Safe inspects the current page’s URL and compares it to known indicators of unsafe or phishing links (via API/logic). If the URL matches suspicious patterns or is flagged by a checking service, a warning alert is shown to the user.
+
+---
+
+## ⚠️ Notes
+
+- A working internet connection may be required for URL verification if an external API is used.  
+- This is a basic protective tool — not a substitute for full antivirus or threat protection services.
+
+---
+
+## 🤝 Contributing
 
 - Drashti Shah  
 - Priyanshu Khambalkar  
@@ -95,19 +88,19 @@ Cyber-Safe/
 
 **Mentor**: Dr. Tejas Bhatt
 
----
-
-## 📚 References
-
-- [Google Safe Browsing API](https://developers.google.com/safe-browsing)
-- [CertSpotter API](https://sslmate.com/certspotter/)
-- [OWASP Phishing Resources](https://owasp.org/www-community/attacks/Phishing)
-- [APWG Phishing Trends Report](https://apwg.org/trendsreports/)
+Contributions are welcome!  
+Feel free to fork the project and submit pull requests for enhancements, bug fixes, or new features.
 
 ---
 
-## 📃 License
+## 📜 License
 
 This project currently does not use any license. Feel free to modify for personal or educational use. For commercial/redistribution, please seek consent.
 
 ---
+
+## 👤 Author
+
+**Priyanshu Khambalkar**  
+GitHub: https://github.com/18PriyanshuK
+
