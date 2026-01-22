@@ -101,6 +101,6 @@ This project currently does not use any license. Feel free to modify for persona
 
 ## 👤 Author
 
-**Priyanshu Khambalkar**  
-GitHub: https://github.com/18PriyanshuK
+**[Priyanshu Khambalkar](https://github.com/18PriyanshuK)**  
+
 
