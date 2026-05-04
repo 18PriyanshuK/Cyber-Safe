@@ -21,7 +21,6 @@
 <img src="https://img.shields.io/badge/Chrome-Extension-4285f4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e"/>
 <img src="https://img.shields.io/badge/Google-Safe%20Browsing%20API-34a853?style=for-the-badge&logo=google&logoColor=white&labelColor=1a1a2e"/>
 
-<br/><br/>
 
 </div>
 
