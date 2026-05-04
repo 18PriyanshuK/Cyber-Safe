@@ -1,4 +1,5 @@
 <div align="center">
+
 ```
  ██████╗██╗   ██╗██████╗ ███████╗██████╗      ███████╗ █████╗ ███████╗███████╗
 ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗     ██╔════╝██╔══██╗██╔════╝██╔════╝
@@ -7,19 +8,21 @@
 ╚██████╗   ██║   ██████╔╝███████╗██║  ██║     ███████║██║  ██║██║     ███████╗
  ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝
 ```
- 
+
 ### Phishing Detection and Web Safety Browser Extension
- 
+
 *Real-time URL scanning and phishing detection — right in your browser.*
- 
+
 <br/>
+
 <img src="https://img.shields.io/badge/JavaScript-ES6-f7df1e?style=for-the-badge&logo=javascript&logoColor=black&labelColor=1a1a2e"/>
 <img src="https://img.shields.io/badge/HTML5-Structure-e34f26?style=for-the-badge&logo=html5&logoColor=white&labelColor=1a1a2e"/>
 <img src="https://img.shields.io/badge/CSS3-Styles-1572b6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1a1a2e"/>
 <img src="https://img.shields.io/badge/Chrome-Extension-4285f4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e"/>
 <img src="https://img.shields.io/badge/Google-Safe%20Browsing%20API-34a853?style=for-the-badge&logo=google&logoColor=white&labelColor=1a1a2e"/>
+
 <br/><br/>
- 
+
 </div>
 
 ---
