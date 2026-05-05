@@ -205,7 +205,7 @@ git push origin feature/your-feature-name
 ## 📜 License
 
 This project is licensed under the [MIT License](https://github.com/PriyanshuKhambalkar/Cyber-Safe/blob/16ac0614694ace39755b49651268f3377aa3b63d/LICENSE) - see the LICENSE file for details.<br/>
-For commercial use or redistribution, please contact the author.
+For commercial use or redistribution, please get in touch with the author.
 
 
 ---
