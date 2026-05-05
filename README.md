@@ -168,7 +168,6 @@ Click the puzzle icon in Chrome toolbar → Pin Cyber-Safe for quick access.
 | Kahan Velani | Developer |
 | Dhruv Parmar | Developer |
 
-**Faculty Mentor:** Dr. Tejas Bhatt
 
 ---
 
@@ -178,7 +177,7 @@ Contributions, bug reports, and feature suggestions are welcome.
 
 ```bash
 # Fork the repository
-git fork https://github.com/18PriyanshuK/Cyber-Safe.git
+git fork https://github.com/PriyanshuKhambalkar/Cyber-Safe.git
 
 # Create a feature branch
 git checkout -b feature/your-feature-name
