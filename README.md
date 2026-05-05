@@ -205,7 +205,9 @@ git push origin feature/your-feature-name
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License]() - see the LICENSE file for details.<br/>
+For commercial use or redistribution, please contact the author.
+
 
 ---
 
